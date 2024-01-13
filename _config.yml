@@ -58,6 +58,11 @@ author:
 repository: nealcaren/crisis-opportunity
 repository_tree: master
 
+collections:
+  books:
+    output: true
+    permalink: /:collection/:name/
+    
 
 ## => Paths
 ##############################

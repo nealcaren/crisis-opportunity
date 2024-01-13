@@ -2,9 +2,14 @@
 layout: article
 # articles:
 #   excerpt_type: html
+title: Crisis and Opportunity Books
 ---
 
 Repository books.
+
+.swiper-demo {
+  height: 220px;
+}
 
 <div class="swiper swiper-demo">
   <div class="swiper__wrapper">

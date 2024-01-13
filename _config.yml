@@ -62,7 +62,7 @@ collections:
   books:
     output: true
     permalink: /:collection/:name/
-    
+
 
 ## => Paths
 ##############################

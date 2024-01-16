@@ -1,6 +1,6 @@
-baseurl: '/crisis-opportunity/'
+baseurl: "/crisis-opportunity/"
 permalink: pretty
-title: 'Crisis & Opportunity Books'
+title: "Crisis & Opportunity Books"
 
 logo:
   mobile: "images/logo/logo-mobile.svg"

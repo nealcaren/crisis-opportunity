@@ -1,22 +1,13 @@
 ---
-layout: article
-# articles:
-#   excerpt_type: html
-title: Crisis and Opportunity Books
+title: Jekyll Serif Theme
+layout: home
+description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+intro_image: "images/illustrations/pointing.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: true
+show_call_box: true
 ---
 
-Repository books.
+# Serif - A Jekyll Business Theme.
 
-.swiper-demo {
-  height: 220px;
-}
-
-<div class="swiper swiper-demo">
-  <div class="swiper__wrapper">
-    <div class="swiper__slide">1</div>
-    <div class="swiper__slide">2</div>
-    <div class="swiper__slide">3</div>
-  </div>
-  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
-  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
-</div>
+Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.

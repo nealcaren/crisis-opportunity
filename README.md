@@ -1,89 +1,103 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+# Jekyll Serif Theme
 
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
-[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
+Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+[Live Demo](https://jekyll-serif.netlify.app/) |
+[Zerostatic Themes](https://www.zerostatic.io)
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
 
-**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
+### Theme features
 
-## Features
+- Jekyll 4.2+
+- Netlify & Github Pages ready
+- Services (Collection)
+- Team (Collection)
+- Features (Data)
+- SCSS
+- 100% Responsive design, animated hamburger and mobile slide in menu
+- Bootstrap 4.6 - _Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`_
+- 100/100 Google Lighthouse speed score
+- 100/100 Google Lighthouse seo score
+- 100/100 Google Lighthouse accessibility score
+- 100/100 Google Lighthouse best practices score
+- Under 50KB without images or 80KB with images and illustrations ⚡
+- Under 20KB without Google fonts ⚡⚡⚡
+- Robust example content included
+- Royalty free illustrations included
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+## Installation
 
-## Skins
+### Installing Ruby & Jekyll
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+### Installing Theme
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+Download or clone the theme.
 
-### Highlight Theme
+To run the theme locally, navigate to the theme directory and run:
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+```
+bundle install
+```
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+To start the Jekyll local development server.
 
-## Documentation
+```
+bundle exec jekyll serve
+```
 
-### Start
+To build the theme.
 
-- [Quick Start](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
+```
+bundle exec jekyll build
+```
 
-### Customization
+## Deployment
 
-- [Configuration](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/i18n)
+### Netlify
 
-### Content
+Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
 
-- [Writing Posts](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/markdown-enhancements)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
 
-## Demo Pages
+### Github Pages
 
-| Name | Description |
-| --- | --- |
-| [Home](https://kitian616.github.io/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://kitian616.github.io/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://kitian616.github.io/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
+This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
 
-## License
+For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
 
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+## Extras
+
+### License
+
+- You cannot create ports of this theme
+- You cannot re-sell this theme
+
+### Credits
+
+- Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
+- Stock images by Unsplash - https://unsplash.com/
+- Feature icons by Noun Project - https://thenounproject.com/
+
+## Support My Work
+
+I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
+
+1. Leave a star ⭐🙏🏻
+2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
+2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
+3. Purchase a premium theme 🔥
+
+### All Jekyll Themes by Zerostatic
+
+- [Jekyll Serif (Open Source)](https://www.zerostatic.io/theme/jekyll-serif/)
+- [Jekyll Atlantic (Open Source)](https://www.zerostatic.io/theme/jekyll-atlantic/)
+- [Jekyll Advance (Premium)](https://www.zerostatic.io/theme/jekyll-advance/)
+- [Jekyll Origin (Premium)](https://www.zerostatic.io/theme/jekyll-origin/)
+- [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
+
+🇦🇺 **Made in Australia** by Robert Austin
